@@ -1,0 +1,30 @@
+# ---- 共通 ----
+.DS_Store
+*.log
+*.tmp
+*.swp
+*.swo
+node_modules/
+
+# ---- Go (backend) ----
+backend/bin/
+backend/build/
+backend/dist/
+*.exe
+*.out
+*.test
+
+# go modules キャッシュは通常グローバルディレクトリのためここでは指定不要
+
+# ---- Node / React (frontend) ----
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/.DS_Store
+
+# ---- エディタ関連 ----
+.vscode/
+.idea/
+*.iml
+
+

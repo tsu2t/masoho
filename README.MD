@@ -17,10 +17,11 @@ MASOHO（真朱）は万葉集に登場する、日本の伝統色です。ま�
 
 ```bash
 git clone <このリポジトリのURL>
-cd masoho
-
+cd masoho/backend
 # 依存関係取得（標準ライブラリのみだが念のため）
 go mod tidy
+cd ../frontend
+npm install   # or pnpm install / yarn install
 ```
 
 ---
@@ -29,10 +30,13 @@ go mod tidy
 
 ```bash
 cd masoho
-go run ./...
-```
+go run ./backend
+# → http://localhost:8080 で REST API が待ち受け
 
-デフォルトでは `:8080` ポートで待ち受けます。
+cd masoho/frontend
+npm run dev
+# → 通常 http://localhost:5173 でフロントが起動
+```
 
 ---
 

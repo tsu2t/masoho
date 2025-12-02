@@ -4,7 +4,7 @@ import (
 	"log"
 	"net/http"
 
-	"masoho/handlers"
+	"masoho/backend/handlers"
 )
 
 func main() {
@@ -18,3 +18,5 @@ func main() {
 		log.Fatalf("server error: %v", err)
 	}
 }
+
+
