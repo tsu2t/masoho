@@ -7,7 +7,7 @@ export function App() {
         alignItems: "center",
         justifyContent: "center",
         fontFamily: "system-ui, -apple-system, BlinkMacSystemFont, sans-serif",
-        backgroundColor: "#fff5f3",
+        backgroundColor: "#D9341D",
         color: "#d9341d",
       }}
     >
