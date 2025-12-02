@@ -11,7 +11,7 @@ export function App() {
         color: "#d9341d",
       }}
     >
-      <h1>Hello World from MASOHO Frontend</h1>
+      <h1>Hello World from MASOHO!</h1>
     </main>
   );
 }
